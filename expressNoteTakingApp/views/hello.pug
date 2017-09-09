@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content 
+        h2 Welcome, student!
+        form(action='/hello', method='post')
+            label Please enter your name:
+                input(type='text', name='username')
+
+            button(type='submit') Submit
+            
