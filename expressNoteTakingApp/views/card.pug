@@ -1,14 +1,8 @@
-doctype html
-html(lang="en")
-  head
-    title Flash Cards
-  body
-    header
-        h1 The future hom eof something magical!
-    
+extends layout.pug
+
+block content 
     section#content
+
         h2= prompt
         p
             i Hint: #{hint}
-    footer
-        p An app to help you study

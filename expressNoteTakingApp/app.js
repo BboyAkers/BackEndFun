@@ -8,8 +8,12 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
+app.get('/test', (req, res) => {
+    res.render('card', { prompt: "Testing"});
+});
+
 app.get('/cards', (req, res) => {
-res.render('card', { prompt: "Who is burried in Grant's Tomb?", hint: "Think about whose tomb it is."});
+    res.render('card', { prompt: "Who is burried in Grant's Tomb?"});
 });
 
 app.listen(3000, () => {
