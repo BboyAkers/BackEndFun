@@ -1,8 +1,8 @@
 extends layout.pug
 
-block content 
+block content
     section#content
-
-        h2= prompt
-        p
-            i Hint: #{hint}
+        h2= text
+        if hint
+            p
+                i Hint: #{hint}

@@ -7,61 +7,25 @@ app.use(cookieParser());
 
 app.set('view engine', 'pug');
 
+const mainRoutes = require('./routes');
+const cardRoutes = require('./routes/cards');
+
+app.use(mainRoutes);
+app.use('/cards', cardRoutes);
+
+//Error handling
 app.use((req, res, next) => {
-    console.log('Hello');
     const err = new Error('Oh noes!');
     err.status = 500;
     next(err);
 });
 
 app.use((req, res, next) => {
-    console.log('world');
     next();
 });
 
-
-app.get('/', (req, res) => {
-    const name = req.cookies.username;
-    if(name){
-        res.render('index', { name });
-    }
-    else{
-        res.redirect('/hello');
-    }
-    
-});
-
-app.get('/test', (req, res) => {
-    res.render('card', { prompt: "Testing"});
-});
-
-app.get('/cards', (req, res) => {
-    res.render('card', { prompt: "Who is burried in Grant's Tomb?"});
-});
-
-app.get('/hello', (req, res) => {
-    const name = req.cookies.username;
-    if(name){
-        res.redirect('/');
-    }
-    else {
-        res.render('hello');
-    }
-    
-});
-
-app.post('/goodbye', (req, res) => {
-        res.clearCookie('username');
-        res.redirect('/hello');    
-});
-
-app.post('/hello', (req, res) => {
-    res.cookie('username', req.body.username)
-    res.redirect('/');
-});
-
 app.use((req, res, next) => {
-    const err = new Error('Not Fount');
+    const err = new Error('Not Found');
     err.status = 404;
     next(err);
 });
