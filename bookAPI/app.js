@@ -10,6 +10,6 @@ app.get('/', function (req, res) {
    res.send('welcome to my API!');
 });
 
-app.listen(3000, function () {
-    console.log('Running on Port ' + port);
+app.listen(port, function () {
+    console.log('Gulp is running on Port ' + port);
 });
