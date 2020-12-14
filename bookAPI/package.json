@@ -12,6 +12,6 @@
     "express": "^4.15.4",
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.2.1",
-    "mongoose": "^4.11.12"
+    "mongoose": "^5.11.7"
   }
 }
