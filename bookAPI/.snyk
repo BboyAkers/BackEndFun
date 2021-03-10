@@ -1,0 +1,87 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gulp-nodemon > nodemon > undefsafe > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > braces > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > anymatch > micromatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > micromatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > micromatch > braces > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > micromatch > extglob > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > liftoff > findup-sync > micromatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > findup-sync > micromatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > anymatch > micromatch > extglob > expand-brackets > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > micromatch > extglob > expand-brackets > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > liftoff > findup-sync > micromatch > braces > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > findup-sync > micromatch > braces > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > liftoff > findup-sync > micromatch > extglob > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > findup-sync > micromatch > extglob > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > liftoff > findup-sync > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > findup-sync > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > anymatch > micromatch > extglob > expand-brackets > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > readdirp > micromatch > extglob > expand-brackets > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > liftoff > findup-sync > micromatch > extglob > expand-brackets > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > findup-sync > micromatch > extglob > expand-brackets > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > glob-watcher > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > liftoff > findup-sync > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > gulp-cli > matchdep > findup-sync > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-03-10T20:53:46.979Z'
+  'npm:extend:20180424':
+    - gulp-nodemon > gulp > gulp-cli > liftoff > extend:
+        patched: '2021-03-10T20:53:46.979Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-stream > extend:
+        patched: '2021-03-10T20:53:46.979Z'
