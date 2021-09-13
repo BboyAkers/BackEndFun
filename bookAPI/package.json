@@ -12,10 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.4",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-nodemon": "^2.5.0",
     "mongoose": "^5.11.7",
-    "snyk": "^1.483.0"
+    "snyk": "^1.685.0"
   },
   "snyk": true
 }
