@@ -15,7 +15,7 @@
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.5.0",
     "mongoose": "^5.12.2",
-    "snyk": "^1.483.0"
+    "snyk": "^1.611.0"
   },
   "snyk": true
 }
