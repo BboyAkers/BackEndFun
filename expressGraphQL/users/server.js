@@ -1,6 +1,6 @@
 import express from 'express';
 import expressGraphQL from 'express-graphql';
-import schema from './schema/schema.js';
+import { schema } from './schema/schema.js';
 const app = express();
 
 const expressGraphQLInit = expressGraphQL.graphqlHTTP;
