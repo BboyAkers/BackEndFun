@@ -15,7 +15,7 @@
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.17.3",
-    "pug": "^3.0.1",
+    "pug": "^3.0.3",
     "@snyk/protect": "latest"
   },
   "snyk": true
