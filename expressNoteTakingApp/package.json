@@ -13,8 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "cookie-parser": "^1.4.3",
-    "express": "^4.17.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.1",
     "pug": "^3.0.1",
     "@snyk/protect": "latest"
   },
