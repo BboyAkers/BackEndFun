@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.19.2",
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.5.0",
     "mongoose": "^6.4.6",
