@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-nodemon": "^2.5.0",
     "mongoose": "^6.4.6",
     "snyk": "^1.1064.0"
