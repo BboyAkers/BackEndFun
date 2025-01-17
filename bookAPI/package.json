@@ -14,7 +14,7 @@
     "express": "^4.17.3",
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.5.0",
-    "mongoose": "^6.4.6",
+    "mongoose": "^6.13.6",
     "snyk": "^1.1064.0"
   },
   "snyk": true
